@@ -22,7 +22,8 @@ results
 end
 
 def first_wa(array)
-  result = array.find {|item| item.start_with?("wa")}
+  string_array = 
+  result = string_array.find {|item| item.start_with?("wa")}
   return result
 end
 
