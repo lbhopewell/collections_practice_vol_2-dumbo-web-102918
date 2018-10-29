@@ -23,7 +23,7 @@ end
 
 def first_wa(array)
   array.each do |data|
-    if data
+    if data.is
   result = string_array.find {|item| item.start_with?("wa")}
   return result
 end
