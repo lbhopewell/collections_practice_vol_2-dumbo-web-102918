@@ -42,4 +42,6 @@ def remove_non_strings(array)
   return string_array
 end
 
+def count_element(array)
+  
 
