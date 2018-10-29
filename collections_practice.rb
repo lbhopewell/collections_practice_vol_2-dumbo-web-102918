@@ -57,9 +57,9 @@ flat1 = array1.flatten
 flat2 = array2.flatten(2)
  #binding.pry
  new_array =[]
- flat1.each do |key1|
+ flat1.map do |key1|
    new_array << key1
-   flat2.each do |key,data2|
+   flat2.map do |key,data2|
      new_array << data2
    end
  end
