@@ -50,7 +50,7 @@ def count_elements(array)
       string_array << data
     end
   end
- string_array.each do |data|
+    array.each do |data|
     hit = array.count(data)
    count_result << {:count=>(hit), :name=>(data)}
   end
