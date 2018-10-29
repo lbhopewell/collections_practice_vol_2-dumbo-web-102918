@@ -44,9 +44,9 @@ end
 
 def count_elements(array)
  count_result = []
- array.each do |data|
-    hits = array.count(data)
-   count_result << hits
+ array.each do |name, data|
+    hit = array.count(data)
+   count_result << {:count=>(hit), :name=>(data)}
   end
  return count_result
  end   
