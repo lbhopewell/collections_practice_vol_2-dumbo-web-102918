@@ -52,10 +52,10 @@ def count_elements(array)
  return count_result.uniq
  end   
  
- def merge_data(array)
-   array = array.join(',')
- binding.pry
- array
+ def merge_data(array1,array2)
+   array =  array1 | array2
+ 
+ 
  end
  
  
