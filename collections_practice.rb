@@ -54,7 +54,7 @@ def count_elements(array)
  
 def merge_data(array1,array2)
 flat1 = array1.flatten
-flat2(2) = array2.flatten
+flat2 = array2.flatten
  binding.pry
  new_array =[]
  flat1.each do |key1|
