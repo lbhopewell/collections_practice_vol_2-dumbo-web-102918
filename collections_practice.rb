@@ -49,5 +49,5 @@ def count_element(array)
       string_array << data
     end
   end
-  string_key
+  string_key.count 
 
