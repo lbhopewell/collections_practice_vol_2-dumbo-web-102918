@@ -57,7 +57,7 @@ def count_elements(array)
   #binding.pry
  
  new_array =[]
- array1.each do |key1,data1|
+ array1.each do |key1|
    new_array << key1
    array2.each do |data2|
      new_array << data2
