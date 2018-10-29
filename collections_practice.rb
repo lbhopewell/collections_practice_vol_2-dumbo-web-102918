@@ -57,10 +57,10 @@ def merge_data(array1,array2)
 #flat2 = array2.flatten(2)
  #binding.pry
  new_array =[]
- flat1.map do |key|
+ array1.map do |key|
    new_array << key
 end 
-   flat2.map do |name,data|
+   array2.map do |name,data|
      new_array << data
  end
  new_array
