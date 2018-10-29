@@ -22,12 +22,7 @@ results
 end
 
 def first_wa(array)
-  list = array.select do |x| 
-  if x.start_with?("wa")
-  #binding.pry
-  return list
-end
-end
+  
 end
 
 
