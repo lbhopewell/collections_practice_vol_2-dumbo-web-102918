@@ -52,7 +52,7 @@ def count_elements(array)
   end
     array.each do |data|
     hit = array.count(data)
-   count_result << {:count=>(hit), :name=>(data)}
+   count_result << {:count=>(hit), :name=>(data[:name])}
   end
  return count_result
  end   
