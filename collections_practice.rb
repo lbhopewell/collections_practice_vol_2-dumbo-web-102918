@@ -54,6 +54,8 @@ def count_elements(array)
  
  def merge_data(array)
    array.flatten!
+   binding.pry
  end
+ 
  
 
