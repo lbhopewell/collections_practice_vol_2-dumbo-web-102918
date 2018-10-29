@@ -50,9 +50,10 @@ def count_element(array)
       string_array << data
     end
   end
-  string.each do |name, data|
-    
-  
+  string_array.each do |data|
+    hits = array.count(data)
+   count_result << hits
   end
-    
+ return count_result
+ end   
 
