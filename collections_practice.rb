@@ -59,7 +59,7 @@ flat2 = array2.flatten(2)
  new_array =[]
  flat1.each do |key1|
    new_array << key1
-   flat2.each do |data2|
+   flat2.each do |key,data2|
      new_array << data2
    end
  end
