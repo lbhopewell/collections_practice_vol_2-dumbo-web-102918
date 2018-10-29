@@ -32,7 +32,7 @@ def first_wa(array)
   return result
 end
 
-def remove_non_string(array)
+def remove_non_strings(array)
   string_array = []
   array.each do |data|
     if data.is_a? String
