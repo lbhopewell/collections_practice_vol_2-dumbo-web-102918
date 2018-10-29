@@ -53,5 +53,7 @@ def count_elements(array)
  end   
  
  def merge_data(array)
-   
+   array.flatten!
+ end
+ 
 
