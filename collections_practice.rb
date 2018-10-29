@@ -43,15 +43,8 @@ def remove_non_strings(array)
 end
 
 def count_elements(array)
-    count_result = []
-    string_array = []
-  array.each do |data|
-    if data.is_a? String
-      string_array << data
-    end
-  end
-  string_array.each do |data|
-    binding.pry
+ count_result = []
+ array.each do |data|
     hits = array.count(data)
    count_result << hits
   end
