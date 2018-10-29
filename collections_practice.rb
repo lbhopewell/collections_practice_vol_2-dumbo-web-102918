@@ -22,11 +22,14 @@ results
 end
 
 def first_wa(array)
+  string_array = []
   array.each do |data|
-    if data.is
+    if data.is_a? String
+      string_array << data
+    end
+  end
   result = string_array.find {|item| item.start_with?("wa")}
   return result
-end
 end
 
 
