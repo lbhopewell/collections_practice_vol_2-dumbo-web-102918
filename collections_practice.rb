@@ -66,6 +66,6 @@ def merge_data(array1,array2)
  flat1 = new_array.flatten
  flat1
  end
- 
+
  
 
