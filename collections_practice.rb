@@ -44,9 +44,13 @@ end
 
 def count_elements(array)
  count_result = []
- 
- 
- array.each do |data|
+ string_array = []
+  array.each do |data|
+    if data.is_a? String
+      string_array << data
+    end
+  end
+ string_array.each do |data|
     hit = array.count(data)
    count_result << {:count=>(hit), :name=>(data)}
   end
