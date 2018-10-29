@@ -45,13 +45,13 @@ end
 def count_element(array)
     count_result = []
     string_array = []
-  # array.each do |data|
-  #   if data.is_a? String
-  #     string_array << data
-  #   end
-  # end
-  array.each do |name, data|
-  
+  array.each do |data|
+    if data.is_a? String
+      string_array << data
+    end
+  end
+  string.each do |name, data|
+    
   
   end
     
