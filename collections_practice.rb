@@ -52,7 +52,7 @@ def count_elements(array)
  return count_result.uniq
  end   
  
- def merge_data(array1,array2)
+def merge_data(array1,array2)
 flat1 = array1.flatten
 flat2(2) = array2.flatten
  binding.pry
