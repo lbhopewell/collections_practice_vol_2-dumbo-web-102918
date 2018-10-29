@@ -55,13 +55,15 @@ def count_elements(array)
  def merge_data(array1,array2)
    array = array1 | array2
   #binding.pry
- array
+ 
  new_array =[]
  array1.each do |key1, data1|
-   
-   
+   new_array << {key1, data1}
+   array2.each do |key2, data2|
+     new_array << {data2}
+   end
  end
- 
+ new_array
  end
  
  
