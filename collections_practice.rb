@@ -32,6 +32,7 @@ def first_wa(array)
   return result
 end
 
-
+def remove_non_string(array)
+  
 
 
