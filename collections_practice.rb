@@ -44,15 +44,10 @@ end
 
 def count_elements(array)
  count_result = []
- new_array = array
-  array.each do |data|
-    if data.is_a? String
-      string_array << data
-    end
-  end
-    array do |data|
+ new_array = array.uniq
+    new_array do |data|
     #binding.pry
-    hit = array.count(data.first)
+    hit = array.count(data)
    count_result << {:count=>(hit), :name=>(data[:name])}
   end
  return count_result
