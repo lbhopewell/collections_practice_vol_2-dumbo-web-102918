@@ -50,7 +50,7 @@ def count_elements(array)
       string_array << data
     end
   end
-    array.uniq do |data|
+    array.uniq! do |data|
     hit = array.count(data)
    count_result << {:count=>(hit), :name=>(data[:name])}
   end
