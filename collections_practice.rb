@@ -63,7 +63,8 @@ end
    array2.map do |data|
      new_array << data
  end
- new_array
+ flat1 = new_array.flatten
+ flat1
  end
  
  
