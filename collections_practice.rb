@@ -59,9 +59,9 @@ def merge_data(array1,array2)
  new_array =[]
  array1.map do |key|
    new_array << key
-end 
    array2.map do |data|
      new_array << data
+ end
  end
  flat1 = new_array.flatten
  flat1
