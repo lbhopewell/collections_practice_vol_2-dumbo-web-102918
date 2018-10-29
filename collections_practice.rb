@@ -51,6 +51,7 @@ def count_elements(array)
     end
   end
   string_array.each do |data|
+    binding.pry
     hits = array.count(data)
    count_result << hits
   end
