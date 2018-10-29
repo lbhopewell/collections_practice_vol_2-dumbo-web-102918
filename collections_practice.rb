@@ -56,6 +56,12 @@ def count_elements(array)
    array = array1 | array2
   #binding.pry
  array
+ new_array =[]
+ array1.each do |key1, data1|
+   
+   
+ end
+ 
  end
  
  
