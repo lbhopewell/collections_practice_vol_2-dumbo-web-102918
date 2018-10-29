@@ -53,8 +53,9 @@ def count_elements(array)
  end   
  
  def merge_data(array)
-   array.join(',')
- 
+   array = array.join(',')
+ binding.pry
+ array
  end
  
  
