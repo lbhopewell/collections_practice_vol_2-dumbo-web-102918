@@ -53,11 +53,12 @@ def count_elements(array)
  end   
  
  def merge_data(array1,array2)
-flat1 = array1
+flat1 = array1.flatten
+flat2 = aray2.flatten
  new_array =[]
- array1.each do |key1|
+ flat1.each do |key1|
    new_array << key1
-   array2.each do |data2|
+   flat2.each do |data2|
      new_array << data2
    end
  end
