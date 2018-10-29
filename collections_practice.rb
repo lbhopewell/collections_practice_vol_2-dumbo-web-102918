@@ -43,5 +43,11 @@ def remove_non_strings(array)
 end
 
 def count_element(array)
-  
+    string_array = []
+  array.each do |data|
+    if data.is_a? String
+      string_array << data
+    end
+  end
+  string_key
 
