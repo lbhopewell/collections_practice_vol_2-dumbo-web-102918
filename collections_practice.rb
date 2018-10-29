@@ -52,7 +52,7 @@ def count_elements(array)
   end
     array.uniq! do |data|
     #binding.pry
-    hit = array.count(data)
+    hit = array.count(data.first)
    count_result << {:count=>(hit), :name=>(data[:name])}
   end
  return count_result
