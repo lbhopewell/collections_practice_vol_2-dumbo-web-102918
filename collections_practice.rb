@@ -54,8 +54,7 @@ def count_elements(array)
  
  def merge_data(array1,array2)
    array =  array1 | array2
- 
- 
+ array
  end
  
  
