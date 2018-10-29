@@ -22,7 +22,7 @@ results
 end
 
 def first_wa(array)
-  
+  result = array.find {|item| item.include?("a")}
 end
 
 
