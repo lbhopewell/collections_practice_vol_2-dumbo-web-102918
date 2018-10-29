@@ -49,6 +49,6 @@ def count_elements(array)
     hit = array.count(data)
    count_result << {:count=>(hit), :name=>(data[:name])}
   end
- return count_result
+ return array.length
  end   
 
