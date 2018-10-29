@@ -44,7 +44,7 @@ end
 
 def count_elements(array)
  count_result = []
-    array.uniq do |name, data|
+    array.uniq do |data|
     #binding.pry
     hit = array.count(data)
    count_result << {:count=>(hit), :name=>(data[:name])}
